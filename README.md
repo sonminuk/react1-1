@@ -41,8 +41,10 @@ font-size: 20px; /_ 스타일: 속성과 값 _/
 
 예제: Dialog 컴포넌트에 props.children을 추가하여 SignUpDialog에서 이를 활용합니다.
 
+````jsx`
 function Dialog(props) {
 return (
+
 <div>
 {props.children}
 </div>
@@ -51,11 +53,13 @@ return (
 
 function SignUpDialog() {
 return (
+
 <Dialog>
 <h1>Sign Up</h1>
 </Dialog>
 );
 }
+`
 
 # 상속에 대해 알아보기
 
