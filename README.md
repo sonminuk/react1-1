@@ -16,12 +16,10 @@ CSS는 **Cascading Style Sheets**의 약자로, 웹 페이지의 스타일을 �
 - **스타일(Style):** 스타일은 속성(Property)과 키-값(Key-Value) 쌍으로 이루어지며, 콜론(:)으로 구분하고, 각 스타일은 세미콜론(;)으로 구분합니다.
 
 예시:
-
-````css
-/* 선택자 */
+/_ 선택자 _/
 h1 {
-  color: blue; /* 스타일: 속성과 값 */
-  font-size: 20px; /* 스타일: 속성과 값 */
+color: blue; /_ 스타일: 속성과 값 _/
+font-size: 20px; /_ 스타일: 속성과 값 _/
 }
 
 # ---------------------------------------------------
@@ -43,7 +41,7 @@ h1 {
 
 예제: Dialog 컴포넌트에 props.children을 추가하여 SignUpDialog에서 이를 활용합니다.
 
-```jsx
+````jsx
 function Dialog(props) {
   return (
     <div>
