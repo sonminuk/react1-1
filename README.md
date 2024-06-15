@@ -41,24 +41,24 @@ font-size: 20px; /_ 스타일: 속성과 값 _/
 
 예제: Dialog 컴포넌트에 props.children을 추가하여 SignUpDialog에서 이를 활용합니다.
 
-````jsx
 function Dialog(props) {
-  return (
-    <div>
-      {props.children}
-    </div>
-  );
+return (
+<div>
+{props.children}
+</div>
+);
 }
 
 function SignUpDialog() {
-  return (
-    <Dialog>
-      <h1>Sign Up</h1>
-    </Dialog>
-  );
+return (
+<Dialog>
+<h1>Sign Up</h1>
+</Dialog>
+);
 }
 
 # 상속에 대해 알아보기
+
 - 상속은 자식 클래스가 부모 클래스의 속성을 모두 갖게 되는 개념입니다.
 - 리액트에서는 상속보다는 합성을 통해 새로운 컴포넌트를 생성하는 것을 선호합니다.
 
@@ -155,7 +155,9 @@ Shared State는 같은 부모 컴포넌트의 state를 자식 컴포넌트가 �
     }
     return <GuestGreeting />;
   }
-````
+  ```
+
+```
 
 ## Truthy와 Falsy 값
 
@@ -333,3 +335,4 @@ Shared State는 같은 부모 컴포넌트의 state를 자식 컴포넌트가 �
 # GitHub 사용법: 협업과 버전 관리를 위한 분산 버전 관리 시스템으로, 소스 코드를 저장하고 공유하는 데 사용됩니다. GitHub을 통해 프로젝트를 관리하고 다른 사용자와 협업할 수 있습니다.
 
 # VSCode와 GitHub 연동: VSCode의 Git 기능을 사용하여 GitHub과 연동할 수 있습니다.
+```
