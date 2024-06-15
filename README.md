@@ -41,7 +41,7 @@ font-size: 20px; /_ 스타일: 속성과 값 _/
 
 예제: Dialog 컴포넌트에 props.children을 추가하여 SignUpDialog에서 이를 활용합니다.
 
-````jsx`
+````jsx
 function Dialog(props) {
 return (
 
@@ -159,7 +159,7 @@ Shared State는 같은 부모 컴포넌트의 state를 자식 컴포넌트가 �
     }
     return <GuestGreeting />;
   }
-  ```
+````
 
 ```
 
